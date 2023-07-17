@@ -1,0 +1,57 @@
+.background {
+   color: red;
+}
+
+/* Radio station */
+.content-classnorm {
+   background: #2f4f4f; 
+   border-radius: 0 0 25px 25px;
+ }
+
+ .content-classcom{
+   background: #2f4f4f; 
+   cursor: pointer;
+   padding: 33px 0px 8px;
+   border-radius: 30px;
+   border: 6px solid #545454;
+   box-sizing: border-box;
+   margin-bottom: 10px;
+ }
+
+ div.marquee {
+   white-space:nowrap;
+   overflow:hidden;
+ }
+ div.marquee > div.marquee-text {
+   white-space: nowrap;
+   display:inline;
+   width:auto;
+ }
+ /*************/
+
+ .navbar-toggler:focus{
+  outline:none;
+ }
+
+ a {
+  text-decoration: none!important;
+ }
+
+
+ .errmsg {
+   display:block;
+   color: #ff0000;
+   background: #ffc0cb;
+   padding:10px;
+   border-radius:12px;
+   text-align: center;
+ }
+ 
+ .offscreen {
+    display:none;
+ }
+
+ body::-webkit-scrollbar{
+  width:0;
+  }
+
